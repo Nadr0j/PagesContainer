@@ -9,4 +9,4 @@ services:
     ports:
       - "10000:10000"
     volumes:
-      - /var/lib/pages_data:/app/Pages
+      - /mnt/nas_share:/app/Pages
