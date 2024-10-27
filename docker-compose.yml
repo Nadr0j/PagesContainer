@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      args:
+        BRANCH: BRANCH
+    ports:
+      - "10000:10000"
+    volumes:
+      - ${HOME}/.pages_data:/app/data
