@@ -9,4 +9,4 @@ services:
     ports:
       - "10000:10000"
     volumes:
-      - ${HOME}/.pages_data:/app/data
+      - /var/lib/pages_data:/app/Pages
